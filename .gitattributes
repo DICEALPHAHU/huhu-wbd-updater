@@ -1,0 +1,8 @@
+# 统一换行处理，避免 Windows/Linux 之间的行尾抖动
+* text=auto
+
+*.ico binary
+*.png binary
+*.jpg binary
+*.zip binary
+*.exe binary
