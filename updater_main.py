@@ -1281,11 +1281,25 @@ def run_gui(root_dir, data_dir, cfg, self_exe, log_path):
                                else "自定义")
 
     def on_about():
+        # GPL-3.0 第 5(d) 条：交互界面需显示“适当法律声明”
+        # （版权声明 + 无担保说明 + 如何查看许可证）
         messagebox.showinfo(
             "关于",
-            "%s\n\n作者：%s\nQQ：%s\n\n更新检查服务器：%s\n本地版本：%s"
+            "%s\n"
+            "作者：%s\n"
+            "QQ：%s\n\n"
+            "更新检查服务器：%s\n"
+            "本地版本：%s\n\n"
+            "----------------------------------------\n"
+            "Copyright (C) 2026 %s\n"
+            "本程序是自由软件：你可以按照 GNU 通用公共\n"
+            "许可证（GPL）第 3 版、或（由你选择）任何更\n"
+            "新版本的条款，重新发布和/或修改它。\n\n"
+            "本程序不提供任何担保。\n\n"
+            "许可证全文见随附的 LICENSE 文件，或访问：\n"
+            "https://www.gnu.org/licenses/"
             % (PROG_NAME, AUTHOR, AUTHOR_QQ, state["server"],
-               state["local_ver"] or "（无）"))
+               state["local_ver"] or "（无）", AUTHOR))
 
     # 按钮行：暂停/继续、取消更新、重新检查、检查/应用更新
     btns = tk.Frame(bottom)
