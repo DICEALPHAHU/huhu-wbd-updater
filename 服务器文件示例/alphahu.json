@@ -1,0 +1,19 @@
+{
+  "full_url": "https://你的直链地址/full.zip",
+  "mods": {
+    "version": "1.0",
+    "url": "https://你的直链地址/mods.zip"
+  },
+  "config": {
+    "version": "1.0",
+    "url": "https://你的直链地址/config.zip"
+  },
+  "tacz": {
+    "version": "1.0",
+    "url": "https://你的直链地址/tacz.zip"
+  },
+  "resourcepacks": {
+    "version": "1.0",
+    "url": "https://你的直链地址/resourcepacks.zip"
+  }
+}

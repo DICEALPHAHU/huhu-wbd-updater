@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller 打包产物
+build/
+dist/
+*.spec
+
+# 临时/测试残留
+_test_*.py
+_bench*.py
+_splice*.py
+_gui_new.txt
+_doc_new.txt
+_t*/
+_g*/
+_l*/
+_f*/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
